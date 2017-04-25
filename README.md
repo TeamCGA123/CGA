@@ -1,8 +1,3 @@
 # FirstRepository
-
-this is it
-
-This is it
-
-this is the second line
+This is the certification generation application for MCE.
 
