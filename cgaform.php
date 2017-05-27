@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,17 +76,17 @@ color: aliceblue;
 </head>
 <body>
 
-<form class="myForm" method="get" action="process.php">
+<form class="myForm" method="post" action="process.php">
 
 <p><i class="fa fa-user-circle" aria-hidden="true"></i>
 <label>Name 
-<input type="text" name="Student_name" required>
+<input type="text" name="name" required>
 </label> 
 </p>
 
 <p>
-<label>Email 
-<input type="email" name="email_address">
+<label>USN 
+<input type="text" name="usn" maxlength="10">
 </label>
 </p>
 	
@@ -101,7 +103,7 @@ color: aliceblue;
 
 <p>
 <label>Message a request to MCE
-<textarea name="comments" maxlength="500"></textarea>
+<textarea name="message" maxlength="500"></textarea>
 </label>
 </p>
 
