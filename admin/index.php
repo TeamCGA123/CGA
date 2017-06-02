@@ -36,13 +36,14 @@
 				<th name = "name" value = "<?php echo $row['name'];?>"><?php echo $row['name'];?></th>
 				<th><?php echo $row['usn'];?></th>
 				<th><?php echo $row['certificateName'];?></th>
-				<th><input type="submit" name="view" value="View" /><th>
+				<th><input type="submit" name="view" value="View" onclick="mover()"/><th>
+                <th><input type="hidden" value="<?php echo $row['id']?>" name="idret" </th>
 				</tr>
 			<tr>
 			</form>				
 			<?php endwhile; ?>		
 			
     </div>
-	
+    
     </body>
-</html>
+</html>3

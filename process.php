@@ -8,7 +8,10 @@ $certificateName = mysqli_real_escape_string($con, $_POST['certificateName']);
 
 //if(!isset($name) || $name == '' || !isset($usn) || $usn == '' || !isset($message) || $message == '' )
 	$query = "INSERT INTO requests (name, usn, message, certificateName) VALUES ('$name', '$usn', '$message', '$certificateName')";
-	
+	$id=$mysqli_insert_id($con);
+	$a=$query['usn'];
+	$arr=array($a->$id);
+
 	if(!mysqli_query($con, $query)){
 			die('Error: '.mysqli_error($con));
 		} else {
