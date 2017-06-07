@@ -111,10 +111,15 @@ text-align: left;
 <p>
 <label>
 <h4>USN:</h4>
-<input type="text" name="usn" maxlength="10" placeholder="exmaple:4MC15CS100">
+<input type="text" name="usn" maxlength="10" placeholder="example:4MC15CS100">
 </label>
 </p>
 
+<label>
+<h4>Father's Name:</h4>
+<input type="text" name="fathersname" class="input" placeholder="Please enter your fathers name">
+</label>
+</p>
 	
 <p>
 <label>
@@ -133,14 +138,14 @@ text-align: left;
 <p>
 <label>
 <h4>Email address:</h4>
-<input type="text" name="usn" maxlength="100" placeholder="exmaple:abc@gmail.com">
+<input type="text" name="email" maxlength="100" placeholder="exmaple:abc@gmail.com">
 </label>
 </p>
 
 <p>
 <label>
 <h4>Mobile no. :</h4>
-<input type="text" name="usn" maxlength="100" placeholder="Enter your mobile number here">
+<input type="text" name="mobileno" maxlength="100" placeholder="Enter your mobile number here">
 </label>
 </p>
 
