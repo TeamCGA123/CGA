@@ -6,10 +6,7 @@ if( isset($_POST['view']))
 	$q= $_POST['idret'];
 	$w="SELECT * FROM requests WHERE id=$q";
 	$details=mysqli_query($con,$w);
-
-
 }
-
 ?>
 <!Doctype html>
 <html>
@@ -35,8 +32,6 @@ echo $row['email'];
 echo "</p>";
 echo "</body></html>";
 }
-
-
 ?>
 <input type="submit" value="Process"/>&nbsp;&nbsp;
 <input type="submit" value="Ignore"/>
